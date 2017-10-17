@@ -1,3 +1,7 @@
 body {
-    background-image: url("https://i.imgur.com/6grqfpP.jpg");
+    background-color: #461440;
+    background-image: url("https://cdn.discordapp.com/attachments/315546273925300226/369959498544054275/Screen_Shot_2017-10-17_at_4.26.26_PM.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-attachment: fixed;
 }
