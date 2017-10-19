@@ -10,6 +10,10 @@ body {
         box-shadow: 0 0 50px #000;
 }
 
+.circle {
+    border-radius: 50%;
+}
+
 #logo {
     height: 3.6em;
     margin-bottom: -2em;
