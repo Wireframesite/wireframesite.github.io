@@ -14,3 +14,10 @@ body {
     height: 3.6em;
     margin-bottom: -2em;
 }
+
+@media (max-width: 575px){
+    #logo{
+        height: 2.6em;
+        margin-bottom: -.4em;
+    }
+}
