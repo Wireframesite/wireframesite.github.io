@@ -1,7 +1,16 @@
 body {
     background-color: #461440;
-    background-image: url("https://cdn.discordapp.com/attachments/315546273925300226/369959498544054275/Screen_Shot_2017-10-17_at_4.26.26_PM.png");
+    background-image: url("img/wfbg.png");
     background-repeat: repeat-x;
     background-position: bottom;
     background-attachment: fixed;
+}
+
+.navbar {
+        box-shadow: 0 0 50px #000;
+}
+
+#logo {
+    height: 3.6em;
+    margin-bottom: -2em;
 }
