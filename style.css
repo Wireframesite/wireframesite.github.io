@@ -1,9 +1,5 @@
 body {
-    background-color: #461440;
-    background-image: url("img/wfbg.png");
-    background-repeat: repeat-x;
-    background-position: bottom;
-    background-attachment: fixed;
+    background: #461440 url("img/wfbg.png") repeat-x fixed bottom;
     -webkit-backface-visibility: hidden;
 }
 
@@ -25,7 +21,12 @@ body {
 }
 
 @media (max-width: 575px){
-    #logo{
+    body {
+        background-attachment: fixed;
+        -webkit-backface-visibility: hidden;
+    }
+
+    #logo {
         height: 2.2em;
         margin-bottom: 0em;
     }
