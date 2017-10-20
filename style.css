@@ -19,14 +19,14 @@ body {
 }
 
 #logo {
-    height: 3.6em;
-    margin-bottom: -2em;
+    height: 3.2em;
+    margin-bottom: -1.6em;
 }
 
 @media (max-width: 575px){
     #logo{
-        height: 2.6em;
-        margin-bottom: -.4em;
+        height: 2.2em;
+        margin-bottom: 0em;
     }
 
     .display-3 {
