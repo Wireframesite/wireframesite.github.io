@@ -1,5 +1,11 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
     background: #461440 url("img/wfbg.png") repeat-x fixed bottom;
+    min-height: 100%;
     -webkit-backface-visibility: hidden;
 }
 
