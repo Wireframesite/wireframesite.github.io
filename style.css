@@ -10,6 +10,10 @@ body {
         box-shadow: 0 0 50px #000;
 }
 
+.bg-darkblue {
+    background: #00254f;
+}
+
 .circle {
     border-radius: 50%;
 }
@@ -23,5 +27,9 @@ body {
     #logo{
         height: 2.6em;
         margin-bottom: -.4em;
+    }
+
+    .display-3 {
+        font-size: 3rem;
     }
 }
