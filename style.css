@@ -4,6 +4,7 @@ body {
     background-repeat: repeat-x;
     background-position: bottom;
     background-attachment: fixed;
+    -webkit-backface-visibility: hidden;
 }
 
 .navbar {
