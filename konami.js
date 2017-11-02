@@ -41,5 +41,5 @@ $(() => {
 });
 
 function activateCheats() {
-    $("#logo").addClass("fa-spin");
+    $("img").addClass("fa-spin");
 }

@@ -2,6 +2,11 @@ body {
     background: #542579 url("img/wfbg.png") repeat-x fixed bottom;
 }
 
+::selection {
+    background-color: #542579;
+    color: white;
+}
+
 .navbar {
     box-shadow: 0 0 50px #000;
 }
