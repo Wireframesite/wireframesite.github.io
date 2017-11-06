@@ -20,12 +20,23 @@ body {
 }
 
 .links a {
-    color: #00254f;
+    color: #636c72;
 }
 
 .links a:hover {
-    color: #007bff;
     text-decoration: none;
+}
+
+.links .fa-twitch:hover {
+    color: #6441a5;
+}
+
+.links .fa-youtube-play:hover {
+    color: #ff0000;
+}
+
+.links .fa-twitter:hover {
+    color: #1DA1F2;
 }
 
 #logo {
