@@ -79,7 +79,7 @@ body {
 }
 
 /*Minimum size adjustments*/
-@media (max-width: 575px){
+@media screen and (max-width: 575px) {
     #logo {
         height: 2.2em;
         margin-bottom: 0em;
@@ -93,11 +93,7 @@ body {
         display: none;
     }
 
-    .person h2 {
-        text-align: center!important;
-    }
-
-    .links {
+    .person h2, .links {
         text-align: center!important;
     }
 }
