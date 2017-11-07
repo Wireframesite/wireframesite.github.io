@@ -1,6 +1,6 @@
+/*Global stuff*/
 body {
     background: #542579 url("img/wfbg.png") repeat-x fixed bottom;
-    min-height: 100%;
 }
 
 ::selection {
@@ -16,12 +16,50 @@ body {
     background: #00254f;
 }
 
+#logo {
+    height: 3.2em;
+    margin-bottom: -1.6em;
+}
+
 .circle {
     border-radius: 50%;
 }
 
+/*Custom user boxes*/
+.person {
+    overflow: auto;
+}
+
+.user-img {
+    width: 25%;
+}
+
+.person:nth-of-type(odd) .user-img {
+    float: left;
+    margin-right: 20px;
+}
+
+.person:nth-of-type(even) .user-img {
+    float: right;
+    margin-left: 20px;
+}
+
+.person:nth-of-type(even) h2 {
+    text-align: right;
+}
+
+.person:nth-of-type(even) .links {
+    text-align: right;
+}
+
+/*User links*/
+.links {
+    display: block;
+}
+
 .links a {
     color: #636c72;
+    font-size: 1.5rem;
 }
 
 .links a:hover {
@@ -40,11 +78,7 @@ body {
     color: #1DA1F2;
 }
 
-#logo {
-    height: 3.2em;
-    margin-bottom: -1.6em;
-}
-
+/*Minimum size adjustments*/
 @media (max-width: 575px){
     #logo {
         height: 2.2em;
@@ -57,5 +91,13 @@ body {
 
     .user-img {
         display: none;
+    }
+
+    .person h2 {
+        text-align: center!important;
+    }
+
+    .links {
+        text-align: center!important;
     }
 }
