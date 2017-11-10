@@ -24,6 +24,7 @@ function renderUser(user) {
     if (user !== null) {
         let container = document.querySelector("#about-content");
         let button = document.querySelector("#add");
+        let space = document.querySelector("#begone");
         let userHtml =
         `<div class="person">
             <img class="circle user-img" src="${user.picture.large}" alt="${user.name.first}">
@@ -47,8 +48,9 @@ function renderUser(user) {
         </div><!-- end person -->
         <hr class="my-4">
         <input type="button" id="add" class="wfbutton circle" value="+" onclick="addUser()">
-        <br>`;
+        <br id="begone">`;
         button.parentNode.removeChild(button);
+        space.parentNode.removeChild(space);
         container.innerHTML += userHtml;
     }
 }

@@ -26,9 +26,11 @@ $(() => {
 
 function activateCheats() {
     let container = document.querySelector("#about-content");
+    let space = document.querySelector("#begone");
     let html =
     `<hr class="my-4">
     <input type="button" id="add" class="wfbutton circle" value="+" onclick="addUser()">
-    <br>`;
+    <br id="begone">`;
+    space.parentNode.removeChild(space);
     container.innerHTML += html;
 }
