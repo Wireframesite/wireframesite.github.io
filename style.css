@@ -46,28 +46,29 @@ body {
 
 /*Custom user boxes*/
 .person {
-    overflow: auto;
+    display: flex;
 }
 
 .user-img {
     width: 25%;
-}
-
-.person:nth-of-type(odd) .user-img {
-    float: left;
+    height: 25%;
     margin-right: 20px;
 }
 
+.user-info {
+    flex-direction: column;
+}
+
+.person:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
 .person:nth-of-type(even) .user-img {
-    float: right;
+    margin-right: 0;
     margin-left: 20px;
 }
 
-.person:nth-of-type(even) h2 {
-    text-align: right;
-}
-
-.person:nth-of-type(even) .links {
+.person:nth-of-type(even) h2, .person:nth-of-type(even) .links {
     text-align: right;
 }
 
@@ -112,7 +113,7 @@ body {
         display: none;
     }
 
-    .person h2, .links {
+    .links, .person h2 {
         text-align: center!important;
     }
 }
